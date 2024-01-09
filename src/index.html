@@ -24,82 +24,80 @@
 </head>
 
 <body>
-    <div class="container" style="height:200px;background:var(--bs-blue)">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">
 
-        <div class="row">
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 1
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 2
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 3
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 4
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 5
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 6
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 7
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 8
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 9
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 10
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 11
-            </div>
-            <div class="col-1" style="border:1px solid black; background: yellow">
-                Box 12
+                <!-- LOGO -->
+
+                <img alt="Jovian Logo" src="jovian-favicon.jpeg" height="30" class="d-md-none">
+                <img alt="Jovian Logo" src="jovian_icon_with_text.png" height="30" class="d-none d-md-inline">
+            </a>
+
+            <!-- TOGGLE BUTTON -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jovian.com/learn" target="_blank">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jovian.com/learn" target="_blank">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://youtube.com/@jovianhq" target="_blank">YouTube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-md-2" href="https://jovian.com/login" target="_blank">SignIn</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col" style="border:1px solid black; background: red">
-                Box 1
+    </nav>
+
+
+    <!-- ABOUT SECTION -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-3">
+            <div class="col-12 col-lg-6">
+                <img src="team.jpg" class="d-block rounded img-fluid mx-auto" alt="Team Image" width="700" height="500"
+                    loading="lazy">
             </div>
-            <div class="col" style="border:1px solid black; background: red">
-                Box 2
-            </div>
-            <div class="col" style="border:1px solid black; background: red">
-                Box 3
-            </div>
-            <div class="col-7" style="border:1px solid black; background: red">
-                Box 4
-            </div>
-            <div class="col" style="border:1px solid black; background: red">
-                Box 5
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-1" style="border:1px solid black; background: red">
-                Box 1
-            </div>
-            <div class="col-2" style="border:1px solid black; background: red">
-                Box 2
-            </div>
-            <div class="col-6" style="border:1px solid black; background: red">
-                Box 3
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start">Work at Jovian</h1>
+                <p class="lead">At Jovian, we're on a mission to build
+                    the world's most highly reputed technical
+                    university, and we're building it completely
+                    online. We offer several beginner friendly
+                    courses that are take by 300,000+ registered
+                    users..</p>
+                <p class="lead">We also offer 2 industry-focused bootcamps:</p>
+                <ol class="lead">
+                    <li>
+                        <a href="https://jovian.com/program/jovian-full-stack-developer-bootcamp" target="_blank">
+                            Jovian Full Stack Developer Bootcamp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jovian.com/program/jovian-data-science-bootcamp"target="_blank">
+                            Jovian Data Science Bootcamp
+                        </a>
+                    </li>
+                </ol>
+                <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div> -->
             </div>
         </div>
     </div>
-
-
-    <!-- NAVBAR -->
-    <div>Navbar</div>
-
-    <!-- ABOUT SECTION -->
-    <div>About Jovian</div>
 
     <!-- JOBS -->
     <div>Jobs list/Table</div>
